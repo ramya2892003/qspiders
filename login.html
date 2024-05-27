@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #content {
+        height: 700px;
+        width: 100%;
+        border: 1px solid red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .form-content {
+        height: 300px;
+        width: 30%;
+        border: 1px solid #cccc;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #efefef;
+      }
+      h1 {
+        text-align: center;
+      }
+      .username {
+        height: 50px;
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .password {
+        height: 50px;
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .submit {
+        height: 50px;
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      input {
+        border: 3px solid black;
+        border-radius: 10%;
+      }
+      .btn-submit {
+        width: 100px;
+        height: 30px;
+        cursor: pointer;
+        background-color: black;
+        color: azure;
+      }
+      .btn-submit:hover {
+        background-color: darkcyan;
+      }
+    </style>
+  </head>
+  <body>
+    <section id="content">
+      <form class="form-content">
+        <h1>LOGIN</h1>
+
+        <div class="username">
+          <label for="">username:</label>
+          <input type="email" />
+        </div>
+        <div class="password">
+          <label for="">Password:</label>
+          <input type="password" />
+        </div>
+
+        <div class="submit">
+          <input type="submit" class="btn-submit" />
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
